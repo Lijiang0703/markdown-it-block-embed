@@ -87,6 +87,12 @@ Option               | Type                 | Default                  | Descrip
 &nbsp;               |                      |                          |
 `prezi.width`        | `number`             | `550`                    | Width of Prezi embed.
 `prezi.height`       | `number`             | `400`                    | Height of Prezi embed.
+&nbsp;               |                      |                          |
+`youku.width`        | `number`             | `640`                    | Width of YouKu embed.
+`youku.height`       | `number`             | `390`                    | Height of YouKu embed.
+&nbsp;               |                      |                          |
+`tencent.width`        | `number`             | `640`                    | Width of Tencent embed.
+`tencent.height`       | `number`             | `390`                    | Height of Tencent embed.
 
 
 ## Supported Services
@@ -97,6 +103,8 @@ HTML embed codes are currently automatically output for the following services:
 - Vimeo
 - Vine
 - Prezi
+- YouKu
+- Tencent
 
 Custom embed services can be specifying in the options that you provide to the
 `markdown-it-block-embed` plugin.   
